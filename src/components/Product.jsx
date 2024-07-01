@@ -43,7 +43,7 @@ function Product() {
                         </span>               
                      </div>
                      <Link to={item.id}>
-                        <p className='text-x mt-2 tracking-tight text-gray-900 dark:text-white'>
+                        <p className='w-[90%] truncate ... text-x mt-2 tracking-tight text-gray-900 dark:text-white'>
                            {item.title}
                         </p>
                      </Link>
